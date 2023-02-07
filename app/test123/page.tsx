@@ -1,5 +1,6 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
 
 import {
   Box,
@@ -139,7 +140,7 @@ export default function Todo() {
                           iconSize="1rem"
                           backgroundColor={"white"}
                           borderColor={"blue.400"}
-                          onChange={() => handleUpdate(x)}
+                          onChange={(e) => handleUpdate(x)}
                         />
                         <Text fontSize="22px" color="red.700">
                           {x.name}
@@ -168,7 +169,9 @@ export default function Todo() {
             </chakra.p>
           </Box>
         </Flex>
+        ;
       </ChakraProvider>
+      ;
     </>
   );
 }

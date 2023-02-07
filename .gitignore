@@ -7,6 +7,9 @@
 
 # testing
 /coverage
+/app/test123
+/app/backup
+/test123
 
 # next.js
 /.next/
@@ -34,3 +37,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
